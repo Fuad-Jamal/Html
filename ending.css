@@ -53,3 +53,13 @@ ul{
     margin: 20px;
     padding: 0 30px;
 }
+video {
+    display: flex;
+    margin: 30px;
+}
+a{
+    font-color: green;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+}
