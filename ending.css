@@ -15,10 +15,13 @@ li,a{
     text-decoration: solid;
     list-style-type:none;
 }
-#start{
+#start,li{
     padding: 0%;
     display: flex;
     background-color: lightblue;
+    gap:1rem;
+    flex-grow: 1;
+    flex-shrink:1;
 }
 p{
 color: slateblue;
@@ -36,6 +39,7 @@ table {
     margin: 20px;
     font-size: rgb(72, 255, 0);
     font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
 }
 h1,h2,h3{
     font-family: Arial, Helvetica, sans-serif;
