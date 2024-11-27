@@ -4,4 +4,11 @@ let text = '';
 for(let i=0; i<b.length; i++) {
     text+=b.elements[i].name +'<br>';
 }
-document.getElementById("neto").innerHTML= text;
+
+let btn = document.querySelector('button');
+let message = document.querySelector('h4')
+btn.addEventListener('click,' ()=>{
+ btn.innerText = 'Miss me!!';
+ message.innerText= "wejn";
+});
+document.getElementById("eme").style.color="gold"
