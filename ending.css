@@ -47,7 +47,7 @@ td{
 h1,h2,h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
-    color: black;
+    color: greenyellow;
     height: fit-content;
 }
 a{
@@ -65,13 +65,10 @@ video {
     margin: 30px;
 }
 a{
-    font-color: green;
+    color: green;
     font-weight: bolder;
     padding: 0%;
     margin: 0%;
-}
-h1,h2,h3 {
-    color: maroon;
 }
 table{
     border-color: lightseagreen;
@@ -81,17 +78,25 @@ table{
 .click-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: lightgreen;
+    background-color: blue;
     border: none;
     color: white;
     cursor: pointer;
 }
 
-.click-button:hover {
+.click-button:click {
     background-color: darkgreen;
 }
 button{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 10px
+    ;
+}
+body{
+    background-color: darkkhaki;
+}
+video{
+    margin-left: 22%;
+    gap: 22%;
 }
