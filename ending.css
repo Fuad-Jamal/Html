@@ -3,6 +3,7 @@ body{
     font-size: medium;
     font-weight: 200;
     float: right;
+    
 }
 .menus{
     background-color: deeppink;
@@ -22,6 +23,7 @@ li,a{
     gap:1rem;
     flex-grow: 1;
     flex-shrink:1;
+    
 }
 p{
 color:sienna
@@ -121,6 +123,10 @@ video{
     50% { background-color:blue;}
     100% { background-color:yellow;}
 }
-.wonder{
-
+#start{
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    left: 0;
 }
