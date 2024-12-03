@@ -24,12 +24,12 @@ function changeBackgroundColor() {
     document.getElementById("atmost").style.backgroundColor = "yellow"
     
 }*/
-/*function addItem() {
+function addItem() {
     const lise= document.createElement("li")
     lise.textContent="a one"
     document.getElementById("why").appendChild(lise)
-}*/
-/*function showVisibility() {
+}
+ 
     let can = document.getElementById("container")
     can.style.visibility='hidden'
 }
@@ -40,7 +40,18 @@ function hideVisibility() {
 function changeFontSize() {
     document.getElementById("ibaze").style.fontSize = "70%"
 }
-document.getElementById("date").onclick = displayDate;
+/*document.getElementById("date").onmouseover = displayDate;
 function displayDate(){
     document.getElementById("show").innerHTML= Date();
 }
+const element = document.getElementById("neto")
+element.remove*/
+/*function mouseOver("date"){
+    document.getElementById("date").style.color="blue"
+}*/
+/*function showDate(){
+    document.getElementById("date").innerHTML = Date()
+}
+function removeDate(){
+    document.getElementById("date").innerText = "Wanna see the date ??"
+}*/
