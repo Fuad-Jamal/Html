@@ -55,3 +55,6 @@ function showDate(){
 function removeDate(){
     document.getElementById("date").innerText = "Wanna see the date ??"
 }
+document.querySelector("container"){
+    console.log('its in')
+}
