@@ -123,6 +123,7 @@ video{
     right: 0;
     left: 0;
 }
-h1:hover{
-    
+#date{
+    float: right;
+    display: block;
 }

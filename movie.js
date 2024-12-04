@@ -30,13 +30,13 @@ function addItem() {
     document.getElementById("why").appendChild(lise)
 }
  
-    let can = document.getElementById("container")
-    can.style.visibility='hidden'
-}
+    let pivo = document.getElementById("container")
+    pivo.style.visibility='hidden'
+
 function hideVisibility() {
     let nox = document.getElementById("container")
     nox.style.visibility='visible'
-}*/
+}
 function changeFontSize() {
     document.getElementById("ibaze").style.fontSize = "70%"
 }
@@ -45,13 +45,13 @@ function displayDate(){
     document.getElementById("show").innerHTML= Date();
 }
 const element = document.getElementById("neto")
-element.remove*/
-/*function mouseOver("date"){
+element.remove
+function mouseOver(){
     document.getElementById("date").style.color="blue"
 }*/
-/*function showDate(){
+function showDate(){
     document.getElementById("date").innerHTML = Date()
 }
 function removeDate(){
     document.getElementById("date").innerText = "Wanna see the date ??"
-}*/
+}
