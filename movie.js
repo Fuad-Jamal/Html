@@ -55,6 +55,10 @@ function showDate(){
 function removeDate(){
     document.getElementById("date").innerText = "Wanna see the date ??"
 }
-document.querySelector("container"){
-    console.log('its in')
-}
+document.getElementById('make').innerHTML = document.getElementById('neto').nodeType
+//document.getElementById('make').innerHTML = document.body.innerHTML;
+const par = document.createElement('p')
+const node = document.createTextNode('WATAGUAN')
+par.append(node)
+const element = document.getElementById('sesi')
+element.append(par)

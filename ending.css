@@ -126,4 +126,6 @@ video{
 #date{
     float: right;
     display: block;
+    background-color: coral;
 }
+
