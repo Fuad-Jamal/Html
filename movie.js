@@ -60,11 +60,29 @@ par.append(node);
 const eleme = document.getElementById("sesi");
 eleme.append(par);
 
-var theColors = ['red','blue','pink','orange']
-var it = document.getElementById('changing')
-var now = document.getElementById('colorz')
-let arr1 = 0
-now.addEventListener('click', function(){
-  it.style.color = theColors[arr1]
-  arr1=(arr1+1)%theColors.length
-})
+// var theColors = ['red','blue','pink','orange', 'indigo','green', 'white']
+// var it = document.getElementById('changing')
+// var now = document.getElementById('colorz')
+// let arr1 = 0
+// now.addEventListener('click', function(){
+//   it.style.color = theColors[arr1]
+//   arr1=(arr1+1)%theColors.length
+// })
+// var s1 = document.getElementById('colorz')
+// var s2 = document.getElementById('countee')
+// var s3 = 0
+// s1.addEventListener('click', ()=>{
+//   s3++
+//   s2.textContent = s3
+// })
+function showIt(){
+  var zik= document.getElementById('changing')
+  if(zik.style.display==='none'){
+    zik.style.display='block'
+  }else{
+    zik.style.display='none'
+  }
+}
+function bigIt(){
+  document.getElementById('changing').style.fontSize = '70px'
+}
