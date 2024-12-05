@@ -59,3 +59,12 @@ const node = document.createTextNode("WATAGUAN");
 par.append(node);
 const eleme = document.getElementById("sesi");
 eleme.append(par);
+
+var theColors = ['red','blue','pink','orange']
+var it = document.getElementById('changing')
+var now = document.getElementById('colorz')
+let arr1 = 0
+now.addEventListener('click', function(){
+  it.style.color = theColors[arr1]
+  arr1=(arr1+1)%theColors.length
+})
