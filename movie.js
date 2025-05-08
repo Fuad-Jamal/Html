@@ -6,7 +6,6 @@ for (let i = 0; i < b.length; i++) {
 }
 
 let btn = document.querySelector(".click-button");
-let message = document.querySelector("h4");
 btn.addEventListener("click", () => {
   btn.innerText = "Miss Me !!";
 });
@@ -27,7 +26,7 @@ function changeBackgroundColor() {
 function addItem() {
   const lise = document.createElement("li");
   lise.textContent = "a one";
-  document.getElementById("why").appendChild(lise);
+  document.getElementById("why").prepend(lise);
 }
 
 let pivo = document.getElementById("container");
@@ -86,3 +85,5 @@ function showIt(){
 function bigIt(){
   document.getElementById('changing').style.fontSize = '70px'
 }
+let x = document.getElementById('changing')
+x.classList.
